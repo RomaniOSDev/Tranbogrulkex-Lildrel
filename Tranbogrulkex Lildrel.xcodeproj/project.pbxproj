@@ -3,33 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		74F3394E2F5ED56A00D4BA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339352F5ED56A00D4BA16 /* AppDelegate.swift */; };
+		74F3394F2F5ED56A00D4BA16 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339362F5ED56A00D4BA16 /* AppStorage.swift */; };
+		74F339502F5ED56A00D4BA16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339382F5ED56A00D4BA16 /* ContentView.swift */; };
+		74F339512F5ED56A00D4BA16 /* CreateAndExploreViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339392F5ED56A00D4BA16 /* CreateAndExploreViews.swift */; };
+		74F339522F5ED56A00D4BA16 /* HarmonyHeroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F3393A2F5ED56A00D4BA16 /* HarmonyHeroScreen.swift */; };
+		74F339532F5ED56A00D4BA16 /* HarmonyHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F3393B2F5ED56A00D4BA16 /* HarmonyHeroViewModel.swift */; };
+		74F339542F5ED56A00D4BA16 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339412F5ED56A00D4BA16 /* MainTabView.swift */; };
+		74F339552F5ED56A00D4BA16 /* MelodyMakerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339422F5ED56A00D4BA16 /* MelodyMakerScreen.swift */; };
+		74F339562F5ED56A00D4BA16 /* MelodyMakerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339432F5ED56A00D4BA16 /* MelodyMakerViewModel.swift */; };
+		74F339572F5ED56A00D4BA16 /* OnboardingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339442F5ED56A00D4BA16 /* OnboardingViews.swift */; };
+		74F339582F5ED56A00D4BA16 /* PlayFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339452F5ED56A00D4BA16 /* PlayFlow.swift */; };
+		74F339592F5ED56A00D4BA16 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339462F5ED56A00D4BA16 /* ResultView.swift */; };
+		74F3395A2F5ED56A00D4BA16 /* RhythmMaestroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339472F5ED56A00D4BA16 /* RhythmMaestroScreen.swift */; };
+		74F3395B2F5ED56A00D4BA16 /* RhythmMaestroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339482F5ED56A00D4BA16 /* RhythmMaestroViewModel.swift */; };
+		74F3395C2F5ED56A00D4BA16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F339492F5ED56A00D4BA16 /* SceneDelegate.swift */; };
+		74F3395D2F5ED56A00D4BA16 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F3394A2F5ED56A00D4BA16 /* SettingsView.swift */; };
+		74F3395E2F5ED56A00D4BA16 /* View+AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F3394B2F5ED56A00D4BA16 /* View+AppStyle.swift */; };
+		74F3395F2F5ED56A00D4BA16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F3394C2F5ED56A00D4BA16 /* ViewController.swift */; };
+		74F339602F5ED56A00D4BA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F339372F5ED56A00D4BA16 /* Assets.xcassets */; };
+		74F339622F5ED56A00D4BA16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F3393E2F5ED56A00D4BA16 /* LaunchScreen.storyboard */; };
+		74F339632F5ED56A00D4BA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F339402F5ED56A00D4BA16 /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74F338D82F5EBFA400D4BA16 /* Tranbogrulkex Lildrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tranbogrulkex Lildrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F339352F5ED56A00D4BA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74F339362F5ED56A00D4BA16 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		74F339372F5ED56A00D4BA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74F339382F5ED56A00D4BA16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74F339392F5ED56A00D4BA16 /* CreateAndExploreViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAndExploreViews.swift; sourceTree = "<group>"; };
+		74F3393A2F5ED56A00D4BA16 /* HarmonyHeroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonyHeroScreen.swift; sourceTree = "<group>"; };
+		74F3393B2F5ED56A00D4BA16 /* HarmonyHeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonyHeroViewModel.swift; sourceTree = "<group>"; };
+		74F3393C2F5ED56A00D4BA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F3393D2F5ED56A00D4BA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74F3393F2F5ED56A00D4BA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74F339412F5ED56A00D4BA16 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		74F339422F5ED56A00D4BA16 /* MelodyMakerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodyMakerScreen.swift; sourceTree = "<group>"; };
+		74F339432F5ED56A00D4BA16 /* MelodyMakerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodyMakerViewModel.swift; sourceTree = "<group>"; };
+		74F339442F5ED56A00D4BA16 /* OnboardingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViews.swift; sourceTree = "<group>"; };
+		74F339452F5ED56A00D4BA16 /* PlayFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayFlow.swift; sourceTree = "<group>"; };
+		74F339462F5ED56A00D4BA16 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		74F339472F5ED56A00D4BA16 /* RhythmMaestroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmMaestroScreen.swift; sourceTree = "<group>"; };
+		74F339482F5ED56A00D4BA16 /* RhythmMaestroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmMaestroViewModel.swift; sourceTree = "<group>"; };
+		74F339492F5ED56A00D4BA16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74F3394A2F5ED56A00D4BA16 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74F3394B2F5ED56A00D4BA16 /* View+AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AppStyle.swift"; sourceTree = "<group>"; };
+		74F3394C2F5ED56A00D4BA16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D343A7FE57AC3E4C9F649113 /* Pods_Tranbogrulkex_Lildrel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tranbogrulkex_Lildrel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BEFB80F07486E72C3C9F44 /* Pods-Tranbogrulkex Lildrel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tranbogrulkex Lildrel.release.xcconfig"; path = "Target Support Files/Pods-Tranbogrulkex Lildrel/Pods-Tranbogrulkex Lildrel.release.xcconfig"; sourceTree = "<group>"; };
+		F62FD9CA739104EEAADED461 /* Pods-Tranbogrulkex Lildrel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tranbogrulkex Lildrel.debug.xcconfig"; path = "Target Support Files/Pods-Tranbogrulkex Lildrel/Pods-Tranbogrulkex Lildrel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		74F338EA2F5EBFA500D4BA16 /* Exceptions for "Tranbogrulkex Lildrel" folder in "Tranbogrulkex Lildrel" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 74F338D72F5EBFA400D4BA16 /* Tranbogrulkex Lildrel */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		74F338DA2F5EBFA400D4BA16 /* Tranbogrulkex Lildrel */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				74F338EA2F5EBFA500D4BA16 /* Exceptions for "Tranbogrulkex Lildrel" folder in "Tranbogrulkex Lildrel" target */,
-			);
-			path = "Tranbogrulkex Lildrel";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		74F338D52F5EBFA400D4BA16 /* Frameworks */ = {
@@ -42,11 +70,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		169637C62676B854A2BDDE47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D343A7FE57AC3E4C9F649113 /* Pods_Tranbogrulkex_Lildrel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D3F04E96E317F8908B40ACB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F62FD9CA739104EEAADED461 /* Pods-Tranbogrulkex Lildrel.debug.xcconfig */,
+				E1BEFB80F07486E72C3C9F44 /* Pods-Tranbogrulkex Lildrel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		74F338CF2F5EBFA400D4BA16 = {
 			isa = PBXGroup;
 			children = (
-				74F338DA2F5EBFA400D4BA16 /* Tranbogrulkex Lildrel */,
+				74F3394D2F5ED56A00D4BA16 /* Tranbogrulkex Lildrel */,
 				74F338D92F5EBFA400D4BA16 /* Products */,
+				6D3F04E96E317F8908B40ACB /* Pods */,
+				169637C62676B854A2BDDE47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +105,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		74F3394D2F5ED56A00D4BA16 /* Tranbogrulkex Lildrel */ = {
+			isa = PBXGroup;
+			children = (
+				74F339352F5ED56A00D4BA16 /* AppDelegate.swift */,
+				74F339362F5ED56A00D4BA16 /* AppStorage.swift */,
+				74F339372F5ED56A00D4BA16 /* Assets.xcassets */,
+				74F339382F5ED56A00D4BA16 /* ContentView.swift */,
+				74F339392F5ED56A00D4BA16 /* CreateAndExploreViews.swift */,
+				74F3393A2F5ED56A00D4BA16 /* HarmonyHeroScreen.swift */,
+				74F3393B2F5ED56A00D4BA16 /* HarmonyHeroViewModel.swift */,
+				74F3393C2F5ED56A00D4BA16 /* Info.plist */,
+				74F3393E2F5ED56A00D4BA16 /* LaunchScreen.storyboard */,
+				74F339402F5ED56A00D4BA16 /* Main.storyboard */,
+				74F339412F5ED56A00D4BA16 /* MainTabView.swift */,
+				74F339422F5ED56A00D4BA16 /* MelodyMakerScreen.swift */,
+				74F339432F5ED56A00D4BA16 /* MelodyMakerViewModel.swift */,
+				74F339442F5ED56A00D4BA16 /* OnboardingViews.swift */,
+				74F339452F5ED56A00D4BA16 /* PlayFlow.swift */,
+				74F339462F5ED56A00D4BA16 /* ResultView.swift */,
+				74F339472F5ED56A00D4BA16 /* RhythmMaestroScreen.swift */,
+				74F339482F5ED56A00D4BA16 /* RhythmMaestroViewModel.swift */,
+				74F339492F5ED56A00D4BA16 /* SceneDelegate.swift */,
+				74F3394A2F5ED56A00D4BA16 /* SettingsView.swift */,
+				74F3394B2F5ED56A00D4BA16 /* View+AppStyle.swift */,
+				74F3394C2F5ED56A00D4BA16 /* ViewController.swift */,
+			);
+			path = "Tranbogrulkex Lildrel";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74F338EB2F5EBFA500D4BA16 /* Build configuration list for PBXNativeTarget "Tranbogrulkex Lildrel" */;
 			buildPhases = (
+				2193379A3B2C9C0CBA52E4C1 /* [CP] Check Pods Manifest.lock */,
 				74F338D42F5EBFA400D4BA16 /* Sources */,
 				74F338D52F5EBFA400D4BA16 /* Frameworks */,
 				74F338D62F5EBFA400D4BA16 /* Resources */,
@@ -73,12 +150,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				74F338DA2F5EBFA400D4BA16 /* Tranbogrulkex Lildrel */,
-			);
 			name = "Tranbogrulkex Lildrel";
-			packageProductDependencies = (
-			);
 			productName = "Tranbogrulkex Lildrel";
 			productReference = 74F338D82F5EBFA400D4BA16 /* Tranbogrulkex Lildrel.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +171,7 @@
 				};
 			};
 			buildConfigurationList = 74F338D32F5EBFA400D4BA16 /* Build configuration list for PBXProject "Tranbogrulkex Lildrel" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +179,6 @@
 				Base,
 			);
 			mainGroup = 74F338CF2F5EBFA400D4BA16;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 74F338D92F5EBFA400D4BA16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +193,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F339602F5ED56A00D4BA16 /* Assets.xcassets in Resources */,
+				74F339622F5ED56A00D4BA16 /* LaunchScreen.storyboard in Resources */,
+				74F339632F5ED56A00D4BA16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2193379A3B2C9C0CBA52E4C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tranbogrulkex Lildrel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74F338D42F5EBFA400D4BA16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F3394E2F5ED56A00D4BA16 /* AppDelegate.swift in Sources */,
+				74F3394F2F5ED56A00D4BA16 /* AppStorage.swift in Sources */,
+				74F339502F5ED56A00D4BA16 /* ContentView.swift in Sources */,
+				74F339512F5ED56A00D4BA16 /* CreateAndExploreViews.swift in Sources */,
+				74F339522F5ED56A00D4BA16 /* HarmonyHeroScreen.swift in Sources */,
+				74F339532F5ED56A00D4BA16 /* HarmonyHeroViewModel.swift in Sources */,
+				74F339542F5ED56A00D4BA16 /* MainTabView.swift in Sources */,
+				74F339552F5ED56A00D4BA16 /* MelodyMakerScreen.swift in Sources */,
+				74F339562F5ED56A00D4BA16 /* MelodyMakerViewModel.swift in Sources */,
+				74F339572F5ED56A00D4BA16 /* OnboardingViews.swift in Sources */,
+				74F339582F5ED56A00D4BA16 /* PlayFlow.swift in Sources */,
+				74F339592F5ED56A00D4BA16 /* ResultView.swift in Sources */,
+				74F3395A2F5ED56A00D4BA16 /* RhythmMaestroScreen.swift in Sources */,
+				74F3395B2F5ED56A00D4BA16 /* RhythmMaestroViewModel.swift in Sources */,
+				74F3395C2F5ED56A00D4BA16 /* SceneDelegate.swift in Sources */,
+				74F3395D2F5ED56A00D4BA16 /* SettingsView.swift in Sources */,
+				74F3395E2F5ED56A00D4BA16 /* View+AppStyle.swift in Sources */,
+				74F3395F2F5ED56A00D4BA16 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		74F3393E2F5ED56A00D4BA16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F3393D2F5ED56A00D4BA16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74F339402F5ED56A00D4BA16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F3393F2F5ED56A00D4BA16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		74F338EC2F5EBFA500D4BA16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62FD9CA739104EEAADED461 /* Pods-Tranbogrulkex Lildrel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +284,38 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Tranbogrulkex Lildrel/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tranbogrulkex Lildrel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Tranbogrulkex-Lildrel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rog.42bn2k3ml1w;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		74F338ED2F5EBFA500D4BA16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BEFB80F07486E72C3C9F44 /* Pods-Tranbogrulkex Lildrel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +323,32 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Tranbogrulkex Lildrel/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tranbogrulkex Lildrel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Tranbogrulkex-Lildrel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rog.42bn2k3ml1w;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
